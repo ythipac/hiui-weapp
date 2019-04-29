@@ -27,6 +27,11 @@
       "src"
     ]
   },
+  "keywords": [
+    "input",
+    "wx-input",
+    "hi-input"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/ythipac/hiui-webapp.git",
