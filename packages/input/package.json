@@ -1,6 +1,6 @@
 {
   "name": "hi-input",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
   "main": "miniprogram_dist/index.js",
   "scripts": {
@@ -63,6 +63,5 @@
     "through2": "^2.0.3",
     "webpack": "^4.16.5",
     "webpack-node-externals": "^1.7.2"
-  },
-  "dependencies": {}
+  }
 }
