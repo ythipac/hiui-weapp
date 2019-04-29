@@ -1,0 +1,111 @@
+.input-module{
+    background: #fff;
+    color: #333;
+}
+
+.input-module .require{
+    font-size: 28rpx;
+    color: #FA3246;
+    width:20rpx;
+    display:inline-block;
+}
+
+.ipt-wrap{
+    position: relative;
+    flex: 1;
+}
+.ipt-wrap input{
+    margin-right:50rpx;
+}
+
+.close{
+    position:absolute;
+    top:50%;
+    right:14rpx;
+    color:#ccc;
+    width:30rpx;
+    height:30rpx;
+    transform:translateY(-50%);
+}
+.flex{
+    display: flex;
+}
+
+.input-label {
+    padding: 25rpx 20rpx;
+    border-bottom: 1rpx solid #F1F2F3;
+}
+.input-label .label{
+    width: 200rpx;
+}
+.input-label input {
+    flex: 1;
+}
+.placeholder {
+    font-size: 26rpx;
+    color: #b0b0b0;
+}
+.fs-28 {
+    font-size:28rpx;
+
+}
+.flex {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    align-content:center;
+    align-items:center;
+}
+
+
+.item-wrap{
+        padding: 0 20rpx;
+        display: flex;
+        border-bottom: 1rpx solid #e8e8e8;
+        background: #fff;
+}
+.img-wrap{
+    width:180rpx;
+    height:180rpx;
+}
+
+.info-wrap{
+    flex: 1;
+    padding-left: 8rpx;
+    padding-top: 24rpx;
+}
+.title-wrap{
+    width: 100%;
+}
+.title{
+    display: inline-block;
+    width: 380rpx;
+}
+
+.pack-wrap .pack{
+    display: inline-block;
+    width: 380rpx;
+}
+
+.right-con{
+    display: inline-block;
+    vertical-align: top;
+    flex: 1;
+    text-align: right;
+    max-width: 146rpx;
+    overflow: hidden;
+}
+
+
+.input-module.card{
+    border-radius: 10rpx;
+}
+
+.input-module.card .input-label {
+    border-bottom: none;
+    padding:30rpx 20rpx;
+}
+
+.mb-24{
+    margin-bottom: 24rpx;
+}

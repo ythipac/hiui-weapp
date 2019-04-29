@@ -1,0 +1,47 @@
+<!--components/inputNew/inputNew.wxml-->
+<view class="input-module {{wrapCls}}">
+    <view class="input-label flex fs-28">
+
+        <view class="label" wx:if="{{ label }}">
+            <text class="require">{{require?'*':''}}</text>
+            <text>{{ label }}</text>
+        </view>
+
+        <view class="ipt-wrap">
+            <textarea placeholder="{{ placeholder }}"
+                      wx:if="{{type === 'textarea'}}"
+                      value="{{ value }}"
+                      maxlength="{{ maxlength }}"
+                      disabled="{{ disabled }}"
+                      placeholder-class="placeholder"
+                      class="{{ clsName }}"
+                      name="{{ name }}"
+                      data-key="{{ name }}"
+                      bindinput="onBindInput"
+                      bindfocus="onFocus"
+                      bindblur="onBlur"
+                      bindconfirm="onConfirm" />
+
+            <input placeholder="{{ placeholder }}"
+                    wx:else
+                    value="{{ value }}"
+                    type="{{ type }}"
+                    name="{{ name }}"
+                    data-key="{{ name }}"
+                    maxlength="{{ maxlength }}"
+                    disabled="{{ disabled }}"
+                    placeholder-class="placeholder"
+                    class="{{ clsName }}"
+                    bindinput="onBindInput"
+                    bindfocus="onFocus"
+                    bindblur="onBlur"
+                    bindconfirm="onConfirm"
+            />
+
+            <image src='./images/delete.svg' class='close' wx:if='{{value && showClear}}'  bindtap="onClearSearchIpt" mode='widthFix' data-key="{{ name }}" />
+        </view>
+
+        <slot></slot>
+
+    </view>
+</view>
