@@ -1,5 +1,5 @@
 {
-  "name": "@hiwx/input",
+  "name": "@hiwx/search",
   "version": "0.1.0",
   "description": "",
   "main": "miniprogram_dist/index.js",
@@ -27,17 +27,11 @@
       "src"
     ]
   },
-  "keywords": [
-    "input",
-    "wx-input",
-    "hi-input"
-  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ythipac/hiui-webapp.git",
-    "directory": "packages/input"
+    "url": ""
   },
-  "author": "huali",
+  "author": "bingling",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -63,5 +57,6 @@
     "through2": "^2.0.3",
     "webpack": "^4.16.5",
     "webpack-node-externals": "^1.7.2"
-  }
+  },
+  "dependencies": {}
 }

@@ -1,4 +1,3 @@
-<!--components/inputNew/inputNew.wxml-->
 <view class="input-module {{wrapCls}}">
     <view class="input-label flex fs-28">
 

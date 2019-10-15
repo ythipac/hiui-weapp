@@ -1,0 +1,20 @@
+<view class="search-wrap {{wrapClass}}">
+        <view class="ipt-wrap">
+            <image src="./images/searchx.png" class="search-icon"></image>
+            <input placeholder="{{ placeholder }}"
+                   class="ipt-search {{inputClass}}"
+                   type='text'
+                   placeholder-class="placeholder-cls"
+                   bindinput="onBindInput"
+                   value="{{searchValue}}"
+                   focus="{{searchFocus}}"
+                   disabled="{{searchDisabled}}"
+                   confirm-type="{{confirmType}}"
+                   bindconfirm="onBindConfirm"
+                   bindfocus="onBindFocus"
+                   placeholder-style="{{placeholderStyle}}"
+            />
+            <image src="./images/delete.svg" class="search-icon-shanchu" wx:if="{{!!value}}" bindtap="onClearSearchIpt"></image>
+        </view>
+        <text class="search-text {{textClass}}" bind:tap="onSearchHandler" wx:if="{{rightText}}">{{rightText}}</text>
+    </view>
