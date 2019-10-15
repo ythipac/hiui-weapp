@@ -1,21 +1,48 @@
  <view class="mb-24">
     <view>
-        <comp placeholder="请输入姓名" bindinputevent="iptVal"></comp>
-        <comp placeholder="请输入密码"></comp>
+        <hi-input
+            placeholder="请输入姓名"
+            bindinputevent="iptVal"
+        >
+        </hi-input>
+
+        <hi-input
+            placeholder="请输入密码"
+        >
+        </hi-input>
     </view>
 
     <view class="mb-24">
-        <comp label="姓名"></comp>
-        <comp label="密码"></comp>
+        <hi-input label="姓名"></hi-input>
+
+        <hi-input label="密码"></hi-input>
     </view>
 
     <view class="p-24">
-        <comp placeholder="请输入姓名" bindinputevent="iptVal" wrapCls="card mb-24" name="pName"></comp>
-        <comp placeholder="请输入密码" wrapCls="card mb-24"></comp>
+        <hi-input
+            placeholder="请输入姓名"
+            bindinputevent="iptVal"
+            wrapCls="card mb-24"
+            name="pName"
+        >
+        </hi-input>
+
+        <hi-input
+            placeholder="请输入密码"
+            wrapCls="card mb-24"
+        >
+        </hi-input>
     </view>
 
     <view class="p-24">
-            <comp label="法人身份证号码" wrapCls="card mb-24" require="{{true}}" name="phone"></comp>
-            <comp label="密码" wrapCls="card"></comp>
+            <hi-input
+                label="法人身份证号码"
+                wrapCls="card mb-24"
+                require="{{true}}"
+                name="phone"
+            >
+            </hi-input>
+
+            <hi-input label="密码" wrapCls="card"></hi-input>
         </view>
  </view>

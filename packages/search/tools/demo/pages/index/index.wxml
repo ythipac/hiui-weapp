@@ -1,0 +1,18 @@
+<view class="mt-32">
+    <search
+      placeholder="商品名称、收货姓名、收货手机号、订单编号"
+      bind:onsearch="onSearchBtn" >
+    </search>
+
+    <search
+      placeholder="商品名称、收货姓名、收货手机号、订单编号"
+      bind:onsearch="onSearchBtn"
+      rightText="取消" >
+    </search>
+
+    <search
+        placeholder="商品名称、收货姓名、收货手机号、订单编号"
+        bind:onsearch="onSearchBtn"
+        rightText="" >
+      </search>
+</view>

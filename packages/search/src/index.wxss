@@ -1,0 +1,52 @@
+.search-wrap {
+    background: transparent;
+    margin: 16rpx 24rpx 16rpx 24rpx;
+    display: flex;
+    color: #333;
+}
+
+.search-wrap .ipt-wrap {
+    position: relative;
+    flex: 1;
+}
+
+.search-wrap .search-text{
+    color: #666;
+    margin-left: 24rpx;
+    line-height: 60rpx;
+    font-size: 30rpx;
+}
+
+.search-wrap .search-icon {
+    position: absolute;
+    top: 15rpx;
+    left: 14rpx;
+    color: #999;
+    width: 30rpx;
+    height: 32rpx;
+}
+
+.search-wrap .ipt-search {
+    background: #fff;
+    height: 60rpx;
+    border-radius: 60rpx;
+    padding-left: 60rpx;
+    padding-right: 45rpx;
+    font-size: 28rpx;
+}
+
+.search-wrap .placeholder-cls{
+    color: #b0b0b0;
+    font-size: 24rpx;
+
+}
+
+.search-wrap .search-icon-shanchu{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 14rpx;
+    color: #ccc;
+    width: 30rpx;
+    height: 30rpx;
+}
